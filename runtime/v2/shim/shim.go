@@ -428,6 +428,8 @@ func run(ctx context.Context, manager Manager, initFunc Init, name string, confi
 		}
 	}
 
+	go watchContainerFANotifyEvents()
+
 	if err := serve(ctx, server, signals, sd.Shutdown); err != nil {
 		if err != shutdown.ErrShutdown {
 			return err

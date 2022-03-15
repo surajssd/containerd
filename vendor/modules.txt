@@ -342,6 +342,9 @@ github.com/prometheus/procfs/internal/fs
 github.com/prometheus/procfs/internal/util
 # github.com/russross/blackfriday/v2 v2.0.1
 github.com/russross/blackfriday/v2
+# github.com/s3rj1k/go-fanotify/fanotify v0.0.0-20210917134616-9c00a300bb7a
+## explicit
+github.com/s3rj1k/go-fanotify/fanotify
 # github.com/satori/go.uuid v1.2.0
 ## explicit
 # github.com/shurcooL/sanitized_anchor_name v1.0.0

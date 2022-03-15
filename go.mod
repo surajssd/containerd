@@ -51,6 +51,7 @@ require (
 	github.com/opencontainers/selinux v1.10.0
 	github.com/pelletier/go-toml v1.9.3
 	github.com/prometheus/client_golang v1.11.0
+	github.com/s3rj1k/go-fanotify/fanotify v0.0.0-20210917134616-9c00a300bb7a
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.0
